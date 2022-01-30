@@ -1,6 +1,5 @@
 {
   "name": "frontend",
-  "homepage": "https://sulavtuladhar.github.io/frontend-lisnutech/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
