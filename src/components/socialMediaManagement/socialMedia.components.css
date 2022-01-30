@@ -1,0 +1,31 @@
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 24vh;
+    cursor: pointer;
+    position: relative;
+}
+.show-on-hover{
+    background: rgba(235, 235, 235, 0.432);
+
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: ease-in-out 0.4s;
+}
+.parent-div:hover .show-on-hover{
+    display: flex;
+}
+
+.child-div:first-child{
+    width: 10vw;
+}
+.child-div{
+    background: rgb(221, 220, 220);
+    height: 20vh;
+}

@@ -1,0 +1,50 @@
+.big-container{
+    height: 100vh;
+    background-color: #fff;
+}
+.form-container{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: larger;
+}
+.login-form{
+    width: 30vw;
+    margin-top: 4rem;
+}
+.login-form input{
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 4px;
+    height: 2rem;
+    padding-left: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+.login-form button{
+    background-color: #4f4fed;
+    border: none;
+    border-radius: 0.16rem;
+    height: 2rem;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.radio-btn{
+    display: flex;
+    align-items: center;
+}
+.radio-btn label{
+    margin-top: -0.4rem;
+}
+button{
+    cursor: pointer;
+}
+.submitting{
+    background-color: rgb(103, 103, 243);
+    cursor: not-allowed;
+}
+a{
+    margin-top: 2vh;
+}

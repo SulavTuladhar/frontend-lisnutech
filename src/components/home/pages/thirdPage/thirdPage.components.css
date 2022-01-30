@@ -1,0 +1,14 @@
+ol li{
+    font-size: 1.25rem;
+    margin-left: 1.875rem;
+    list-style: none;
+    padding: 0.938rem;
+    font-family:cursive;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    /* border-bottom: 5px; */
+    text-decoration-thickness: 0.625rem;
+    /* padding-bottom: 20px; */
+    text-underline-offset: 1.25rem;
+    line-height: 1.875rem;
+}

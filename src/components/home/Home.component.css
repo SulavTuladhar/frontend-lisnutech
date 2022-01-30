@@ -1,0 +1,159 @@
+/* Hero section */
+.hero-container{
+    position: relative;
+    height: 88vh;
+
+}
+h4{
+    font-family: "Montserrat", sans-serif;
+}
+.about-us h1,
+.book-a-table h1,
+.menu h1,
+.text,
+.footer h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    color: #484848;
+    font-style: normal;
+    font-weight: bold;
+}
+.about-us p,
+.menu h6,
+.our-chef p,
+.footer p,
+.book-a-table p{
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+}
+.menu h6{
+   font-style: italic;
+}
+.table td{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+.testimonials-container h6{
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;  
+    font-style: italic;
+}
+.our-chef p{
+    color: #737373;
+}
+.our-chef-button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.opening-hour h4{
+    font-family: "Montserrat", sans-serif;
+    color: #737373;
+}
+.footer p{
+    color: #b3b3b3;
+}
+.book-a-table p{
+    font-style: italic;
+    color: #737373;
+}
+.money{
+    font-family: "Libre Baskerville", serif;
+    font-size: 15px;
+    color: #2e2e2e;
+}
+
+.contents{
+    background: rgba(255, 253, 253, 0.795);
+    border-radius: 1rem;
+}
+.services{
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+}
+.services:hover{
+    transform: scale(1.1);
+}
+.thum-name{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    color: #fff;
+    font-size: 2rem;
+    transition: ease-in-out 0.6s;
+
+}
+.services:hover .thum-name{
+    top: 46%;
+    transition: ease-in-out 0.4s;
+}
+
+/* Book A Table */
+.here{
+    background-color: #f7f7f7;
+}
+.form{
+    display: flex;
+    /* height: 8vh; */
+}
+.form select{
+    outline: none;
+}
+.form input{
+    outline: none;
+}
+
+.table-row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(233, 233, 233);   
+    transition: ease-in-out 0.4s;
+}
+.table-row:hover{
+    padding-left: 8px;
+    border-bottom: 1px solid #000;   
+}
+/* Testinomial */
+.testinomial{
+    background: #f7f7f7;
+}
+.testimonials-container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw 0 10vw;
+}
+/* Our Chef's Story */
+.oour-chef{
+    color: #949494;
+}
+.our-chef-button{
+    border: 1px solid #484848;
+    background: none;
+    height: 3rem;
+    width: 8rem;
+    transition: ease-in-out 0.3s;
+}
+.our-chef-button:hover{
+    background: #484848;
+    color: #fff;
+}
+
+/* Opening Hour */
+.icons{
+    width: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .here{
+        height: 68vh;
+    }
+    .text{
+        text-align: center;
+    }
+}
+

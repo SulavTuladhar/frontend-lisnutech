@@ -1,0 +1,44 @@
+
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 110vh;
+} */
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 40vw;
+}
+form input{
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 4px;
+    height: 2rem;
+    padding-left: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+form button{
+    background-color: #4f4fed;
+    border: none;
+    border-radius: 0.16rem;
+    height: 2rem;
+    color: #fff;
+    /* font-weight: normal; */
+    font-size: 0.8rem;
+}
+.radio-btn{
+    display: flex;
+    align-items: center;
+}
+.radio-btn label{
+    margin-top: -0.4rem;
+}
+button{
+    cursor: pointer;
+}
+.submitting{
+    background-color: rgb(103, 103, 243);
+    cursor: not-allowed;
+}

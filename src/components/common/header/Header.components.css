@@ -1,0 +1,80 @@
+/* For logged Oout */
+.nav-bar{
+    height: 8vh;
+}
+
+.nav-list,
+.nav-list-loggedIn{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+}
+
+/* For logged In  */
+.nav-list-loggedIn{
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid  #f6f6f8;
+}
+.nav-loggedIn-item{
+    display: flex;
+    width: 4vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-icon{
+    height: 28px;
+    width: 30px;
+    cursor: pointer;
+    /* background-color: brown; */
+}
+.logout{
+    height: 246x;
+}
+.right-border{
+    border-right: 2px solid #f6f6f8 ;
+}
+.left-border{
+    border-left: 2px solid #f6f6f8 ;
+}
+.username{
+    font-family: "Libre Baskerville", serif;
+    font-size: 15px;
+    color: #2e2e2e;
+}
+
+.loggedInNavBar{
+    background: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.bar{
+    height: 0.313rem;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.313rem;
+    transition: 0.3s ease;  
+}
+#bar1{
+    transform:translateY(-4px);
+}
+#bar3{
+    transform:translateY(4px);
+}
+.bg-color{
+    background: rgba(0, 0, 0, 0.89);
+}
+.text-color{
+    color: #fff;
+    transition: ease-in-out 0.2s;
+}
+.text-color:hover{
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.05);
+}
